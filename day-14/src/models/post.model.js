@@ -1,22 +1,25 @@
 const mongoose = require("mongoose")
 
 
-const postSchema = mongoose.Schema({
+const postSchema = new mongoose.Schema({
     caption:{
-        type: String,
+        type:String,
+        
     },
     imgurl:{
-        type: String,
-        required:[true, "imgurl is required"]
+        type:String,
+     
     },
     user:{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "users",
-        required: true,
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"users",
+        required:true,
+
     }
+
 })
 
 const postmodel = mongoose.model("posts",postSchema)
 
-module.exports = postmodel
 
+module.exports = postmodel

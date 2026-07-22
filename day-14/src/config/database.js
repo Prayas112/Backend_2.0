@@ -1,12 +1,11 @@
 const mongoose = require("mongoose")
 
-
-async function connectTODB(){
+ function connectedTODB(){
     mongoose.connect(process.env.MONGO_URI)
     .then(()=>{
-        console.log("db connected");
+        console.log("connected to db");
         
     })
-}
+ }
 
-module.exports = connectTODB
+ module.exports = connectedTODB

@@ -1,5 +1,5 @@
 {
-  "name": "day-14",
+  "name": "day-15",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,13 +14,13 @@
   "dependencies": {
     "@imagekit/nodejs": "^7.10.0",
     "bcryptjs": "^3.0.3",
-    "cookie": "^2.0.1",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "install": "^0.13.0",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.7.4",
     "multer": "^2.2.0",
-    "parser": "^0.1.4"
+    "npm": "^12.0.1"
   }
 }
