@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+}
+.notes{
+  display: flex;
+  gap: 2rem;
+  padding-inline: 2rem;
+  padding-block: 2rem;
+  padding: 4rem;
+}
+
+.note{
+  background-color: rgb(123, 122, 122);
+  color: aliceblue;
+  border-radius: 0.5rem;
+  padding: 2rem;
+
+
+
+}
+.forms{
+  display: flex;
+  gap: 2rem;
+  padding: 4rem;
+ 
+}
+.form-2{
+  background-color: red;
+  padding-inline: 1rem;
+  padding-block: 2rem;
+}
+.btn1{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.btn2{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.btn3{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}

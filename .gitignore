@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Build output
+day-9/frontend/dist/
+
+
+day-9/backend/public/
