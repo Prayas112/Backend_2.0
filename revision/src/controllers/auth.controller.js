@@ -35,7 +35,7 @@ process.env.JWT_SECRET,
 })
   res.cookie = ("token", token)
 
-  res.status(404).json({
+  res.status(200).json({
     message:"user registered successfully",
     user:{
         username: user.username,
@@ -73,7 +73,7 @@ process.env.JWT_SECRET,
 })
 
  res.cookie("token", token)
-res.status(404).json({
+res.status(200).json({
     message:"user loggedin successfully",
     user:{
         username:user.username,

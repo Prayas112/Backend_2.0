@@ -54,7 +54,7 @@ async function getpostdetailscontroller(req,res){
     }
     const validuser = await post.user.toString() === userid
    
-    if(!post){
+    if(!validuser){
        return res.status(409).json({
             message:"forbidden content"
         })

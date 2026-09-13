@@ -26,7 +26,7 @@ async function followcontroller(req,res){
      })
      if(useralreadyfollow){
         return res.status(404).json({
-            message:`user alreadt followed ${followeeusername}`,
+            message:`user already followed ${followeeusername}`,
             follow:useralreadyfollow
         })
      }
